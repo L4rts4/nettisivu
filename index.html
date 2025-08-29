@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<title>HTML Tehtävä</title>
+<style>
+#testi-alue {
+  border: 2px solid green;
+  background-color: #001f4d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+}
+</style>
+</head>
+<body>
+<h1>Iso otsikko h1</h1>
+<h2>Keskikokoinen otsikko h2</h2>
+<h3>Pienempi otsikko h3</h3>
+
+<p>Tyhjä tagi ei tarvitse sulkevaa tagia esimerkiksi br tai img Muut tagit tarvitsevat avaus ja sulkutagin</p>
+<p>Case sensitive tarkoittaa että isot ja pienet kirjaimet ovat erilaisia HTMLssä ei ole tärkeää mutta CSSssä ja JSssä on</p>
+
+<img src="https://images.dog.ceo/breeds/hound-walker/n02089867_2130.jpg" alt="Koira" width="200">
+
+<ul>
+<li>Ensimmäinen</li>
+<li>Toinen</li>
+<li>Kolmas</li>
+</ul>
+
+<p><a href="https://salpaus.fi" target="_blank" rel="noopener noreferrer">Salpauksen sivut</a></p>
+<p><a href="poftfolio.html">Siirry Portfolioon</a></p>
+
+<div id="testi-alue">Testailua</div>
+
+<form action="#" method="post">
+<label for="nimi">Nimi</label><br>
+<input type="text" id="nimi" name="nimi" placeholder="Nimesi"><br><br>
+
+<label for="ika">Ikä</label><br>
+<input type="number" id="ika" name="ika" min="0" max="120"><br><br>
+
+<label for="sukupuoli">Sukupuoli</label><br>
+<select id="sukupuoli" name="sukupuoli">
+<option value="">Valitse</option>
+<option value="mies">Mies</option>
+<option value="nainen">Nainen</option>
+<option value="muu">Muu</option>
+</select><br><br>
+
+<input type="submit" value="Lähetä">
+</form>
+</body>
+</html>
